@@ -1,0 +1,28 @@
+.content {
+  padding: 50px 100px;
+}
+
+.content .store-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.content .store-container .store-column {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content .range-card-container {
+  display: flex;
+}
+
+.content .range-card-container > * {
+  margin-right: 5em;
+}
+
+.content .range-card-container > *:last-child {
+  margin-right: 0;
+}

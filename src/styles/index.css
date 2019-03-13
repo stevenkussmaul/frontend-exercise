@@ -1,0 +1,23 @@
+html {
+  --color-primary: #439a86;
+  --color-bg: #e6e5ea;
+  --color-text: #1f363d;
+  --color-yellow: #ecba82;
+  --color-red: #de5f5a;
+  --color-blue: #007991;
+  --color-white: #ffffff;
+  --color-shadow: rgba(0, 0, 0, 0.16);
+
+  color: var(--color-text);
+}
+
+body {
+  background: var(--color-bg);
+  font-family: "Segoe UI", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}

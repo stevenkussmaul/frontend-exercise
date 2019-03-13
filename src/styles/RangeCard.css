@@ -1,0 +1,21 @@
+.range-card {
+  position: relative;
+
+  height: 320px;
+  width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.range-card .help-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+  background: transparent;
+  border: none;
+  color: inherit;
+}

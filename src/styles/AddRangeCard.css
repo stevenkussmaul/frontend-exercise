@@ -1,0 +1,15 @@
+.add-range {
+  height: 314px;
+  width: 314px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px dashed var(--color-text);
+  border-radius: 2px;
+}
+
+.add-range .fa-plus-circle {
+  color: var(--color-text);
+}

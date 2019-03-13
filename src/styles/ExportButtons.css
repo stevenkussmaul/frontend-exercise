@@ -1,0 +1,11 @@
+.export-buttons .fa-file-pdf {
+  color: var(--color-red);
+}
+
+.export-buttons .fa-file-excel {
+  color: var(--color-primary);
+}
+
+.export-buttons .fa-file-csv {
+  color: var(--color-text);
+}

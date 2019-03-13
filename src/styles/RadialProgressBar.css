@@ -1,0 +1,30 @@
+.radial-progress-bar {
+  height: 165px;
+  width: 165px;
+}
+
+.radial-progress-bar .progress-group {
+  transform-origin: center;
+  transform: rotate(135deg);
+}
+
+.radial-progress-bar .progress-trough {
+  fill: var(--color-bg);
+  stroke: none;
+}
+
+.radial-progress-bar .progress {
+  fill: var(--color-yellow);
+  stroke: none;
+}
+
+.radial-progress-bar .value {
+  text-anchor: middle;
+
+  transform-origin: center;
+  transform: rotate(-135deg);
+
+  fill: var(--color-text);
+  font-weight: bold;
+  font-size: 2.5em;
+}

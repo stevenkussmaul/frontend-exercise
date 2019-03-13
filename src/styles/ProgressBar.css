@@ -1,0 +1,16 @@
+.progress-bar {
+  background: var(--color-bg);
+  height: 0.75em;
+
+  overflow: hidden;
+}
+
+.progress-bar .progress-value {
+  background: var(--color-red);
+  height: 100%;
+}
+
+.progress-bar,
+.progress-bar .progress-value {
+  border-radius: calc(0.75em / 2);
+}

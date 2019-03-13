@@ -1,0 +1,51 @@
+.percentage-card {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px 30px;
+
+  margin-bottom: 15px;
+}
+
+.percentage-card:last-child {
+  margin-bottom: 0;
+}
+
+.percentage-card > div {
+  margin-bottom: 15px;
+}
+
+.percentage-card > div:last-child {
+  margin-bottom: 0px;
+}
+
+.percentage-card > div:first-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.percentage-card > div:first-child h4 {
+  margin: 0px;
+}
+
+.percentage-card > div:first-child em {
+  font-size: 2em;
+}
+
+.percentage-card > div:last-child {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.percentage-card .help-button {
+  background: transparent;
+  border: none;
+  color: inherit;
+}
+
+.percentage-card:last-child .progress-bar .progress-value {
+  background: var(--color-primary);
+}
