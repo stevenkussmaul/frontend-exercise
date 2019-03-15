@@ -120,5 +120,9 @@ For the second part, choose **one** of the 4 tasks from the following list.
   - When the user clicks the AddRangeButton, the application displays a list of data points to choose from
   - When the user clicks their desired data point, the application adds an additional RangeCard to the list under Customers
   - Find the addional data points in `src/data.js`
+  
+  **Notes**
+  - Please ensure to fully comment all code.  Any developer opening your submittion should be able to understand what each section is doing.
+  - Please ensure to list any new steps that would need to be taken for us to execute you changes, beyond the current steps already listed.
 
 If there are any questions, please contact us!
