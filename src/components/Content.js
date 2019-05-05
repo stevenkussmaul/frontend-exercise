@@ -18,6 +18,11 @@ export default class Content {
         title: "Unique Customers",
         value: 300,
         upperRange: 450
+      },
+      {
+        title: "Monthly Sales",
+        value: 750,
+        upperRange: 1000
       }
     ];
   }
@@ -37,11 +42,14 @@ export default class Content {
 
     const cardsContainer = document.createElement("div");
     cardsContainer.className = "range-card-container";
+    
     const uniqueCustomersCard = new RangeCard(this._data[0]);
+    const percentageGrowthCard = new RangeCard(this._data[1]);
 
     const addCard = new AddRangeCard();
 
     cardsContainer.appendChild(uniqueCustomersCard.getElement());
+    cardsContainer.appendChild(percentageGrowthCard.getElement());
     cardsContainer.appendChild(addCard.getElement());
 
     /***************************

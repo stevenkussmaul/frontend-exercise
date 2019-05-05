@@ -20,3 +20,15 @@
 .header h1 {
   flex-grow: 1;
 }
+
+/* media query to move items to columns below given width */
+@media (max-width: 760px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-top:30%;
+  }
+  .header .logo-container { 
+    margin-right: 0;
+  }
+}

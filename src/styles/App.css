@@ -14,3 +14,10 @@
   /* Using margin so that the all the content is pushed, not just relatively position elements */
   margin-left: 130px;
 }
+
+/* media query to move items to columns below given width */
+@media (max-width: 760px) {
+  .app .page {
+    margin-left: auto;
+  }
+}

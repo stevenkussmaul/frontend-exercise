@@ -10,3 +10,10 @@
 .pie-chart-card h4 {
   margin-top: 0;
 }
+
+@media (max-width: 760px) {
+  .pie-chart-card {
+    padding: 15px;
+    margin-right: auto;
+  }
+}

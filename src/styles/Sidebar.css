@@ -21,8 +21,33 @@
 
 .sidebar .icon-button:last-child {
   margin-bottom: 0;
+  margin-top: auto;
 }
 
-.sidebar .icon-button:last-child {
-  margin-top: auto;
+
+/* media query to move items to columns below given width */
+@media (max-width: 760px) {
+  .sidebar {
+    /* Fixed to the left */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 80%;
+  
+    display: flex;
+    flex-direction: row;
+  
+    background: var(--color-primary);
+    padding: 32px;
+  
+    box-shadow: 3px 0 3px var(--color-shadow);
+    z-index: 5;
+  }
+
+  .sidebar .icon-button:last-child{
+    margin-bottom: 0;
+    margin-top: auto;
+    margin-left: auto;
+  }
 }
